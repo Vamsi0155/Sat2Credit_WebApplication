@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Smoke Test">
+
+	<listeners>
+		<listener class-name="com.sat2credit.utilities.Reports" />
+		<listener class-name="com.sat2credit.utilities.AnnotationTransformer" />
+	</listeners>
+
+	<test thread-count="5" name="LoginScreen">
+		<classes>
+			<class name="com.sat2credit.testcases.LoginScreen">
+				<methods>
+					<exclude name="clickOnPhoneNumber_TC003" />
+					<exclude name="clickOnPassword_TC006" />
+					<exclude name="verifyPhoneNumberWarningMessage_TC012" />
+					<exclude name="verifyPasswordWarningMessage_TC013" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Login Screen -->
+	
+	<test thread-count="3" name="Home Screen">
+		<classes>
+			<class name="com.sat2credit.testcases.HomeScreen">
+				<methods>
+					<include name="moveTOHomePage" />
+					<include name="verifyUser_TC01" />
+					<include name="verifyPortfolioLink_TC02" />
+					<include name="verifyFarmsListScroll_TC18" />
+					<include name="verifyFarmDetailsScroll_TC019" />
+					<include name="verifyLogOutButton_TC20" />
+					<include name="clickOnLogOutButton_TC21" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Home Screen -->
+	
+</suite> <!-- Smoke Test -->

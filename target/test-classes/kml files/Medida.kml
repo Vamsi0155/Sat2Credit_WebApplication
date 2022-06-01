@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Medida do polígono JOANELA.kml</name>
+	<StyleMap id="inline2200">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#inline901</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#inline1500</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="inline901">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Style id="inline1500">
+		<LineStyle>
+			<color>ff0000ff</color>
+			<width>2</width>
+		</LineStyle>
+		<PolyStyle>
+			<fill>0</fill>
+		</PolyStyle>
+	</Style>
+	<Placemark>
+		<name>Medida do polígono</name>
+		<styleUrl>#inline2200</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-51.86720081463356,-29.17309125628526,0 -51.86586934690438,-29.17318171080026,0 -51.86478231846063,-29.17321186025793,0 -51.85969175875453,-29.18346763453579,0 -51.86190759283509,-29.18416342108626,0 -51.86262406840728,-29.18295754250929,0 -51.86179076709841,-29.18266542260149,0 -51.86720081463356,-29.17309125628526,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
