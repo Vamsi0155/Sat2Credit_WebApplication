@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.sat2credit.testcases.FarmDetailsVerification">
+        <methods>
+          <include name="validateCreditScorePoints_TC28"/>
+          <include name="setUp"/>
+          <include name="validateTheFarmID_TC08"/>
+          <include name="validateCreditScoreImage_TC27"/>
+          <include name="tearDown"/>
+          <include name="validateCreditScoreDetails_TC26"/>
+        </methods>
+      </class> <!-- com.sat2credit.testcases.FarmDetailsVerification -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

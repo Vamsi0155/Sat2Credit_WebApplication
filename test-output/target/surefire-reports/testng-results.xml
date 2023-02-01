@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="15" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-22T17:40:06 IST" name="Smoke Test" finished-at="2022-06-22T17:40:13 IST" duration-ms="7670">
+    <groups>
+    </groups>
+    <test started-at="2022-06-22T17:40:06 IST" name="LoginScreen" finished-at="2022-06-22T17:40:13 IST" duration-ms="7670">
+      <class name="com.sat2credit.testcases.LoginScreen">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:06 IST" name="setUp" finished-at="2022-06-22T17:40:12 IST" duration-ms="6091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTitleText_TC001()[pri:1, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:12 IST" name="verifyTitleText_TC001" finished-at="2022-06-22T17:40:12 IST" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleText_TC001 -->
+        <test-method signature="verifyPhoneNumberInput_TC002()[pri:2, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:12 IST" name="verifyPhoneNumberInput_TC002" finished-at="2022-06-22T17:40:12 IST" duration-ms="50" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPhoneNumberInput_TC002 -->
+        <test-method signature="clickOnPhoneNumber_TC003()[pri:3, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:12 IST" name="clickOnPhoneNumber_TC003" finished-at="2022-06-22T17:40:13 IST" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPhoneNumber_TC003 -->
+        <test-method signature="verifyPasswordInput_TC005()[pri:5, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:13 IST" name="verifyPasswordInput_TC005" finished-at="2022-06-22T17:40:13 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPasswordInput_TC005 -->
+        <test-method signature="clickOnPassword_TC006()[pri:6, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:13 IST" name="clickOnPassword_TC006" finished-at="2022-06-22T17:40:13 IST" duration-ms="68" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnPassword_TC006 -->
+        <test-method signature="verifyEyeButton_TC009()[pri:9, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:13 IST" name="verifyEyeButton_TC009" finished-at="2022-06-22T17:40:13 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEyeButton_TC009 -->
+        <test-method signature="clickOnEyeButton_TC010()[pri:10, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:13 IST" name="clickOnEyeButton_TC010" finished-at="2022-06-22T17:40:13 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnEyeButton_TC010 -->
+        <test-method signature="verifyLoginButton_TC014()[pri:14, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:13 IST" name="verifyLoginButton_TC014" finished-at="2022-06-22T17:40:13 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginButton_TC014 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.sat2credit.testcases.LoginScreen@73302995]" started-at="2022-06-22T17:40:13 IST" name="tearDown" finished-at="2022-06-22T17:40:13 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.sat2credit.testcases.LoginScreen -->
+    </test> <!-- LoginScreen -->
+  </suite> <!-- Smoke Test -->
+</testng-results>
