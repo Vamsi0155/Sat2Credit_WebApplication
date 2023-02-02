@@ -33,7 +33,7 @@ public class HomePage {
 	
 	/*
 	 * To identify the home page elements here..
-	 * Below some elements are commented because of the few functions are removed in the Application.
+	 * Below some elements are commented because of the few functions are removed from the Application.
 	 */
 	@FindBy(xpath="//a[@id='viewName']")
 	WebElement userNameTextElement;
